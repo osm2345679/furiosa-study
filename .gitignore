@@ -1,0 +1,66 @@
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments and packaging
+.venv/
+venv/
+env/
+.conda/
+build/
+dist/
+*.egg-info/
+
+# Credentials and machine-local configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+.ssh/
+.hf-private/
+*.pem
+*.key
+credentials.json
+token.json
+.vscode/*
+!.vscode/extensions.json
+
+# Downloaded data, models, and compiled NPU artifacts
+_data/
+_save/
+_db/
+data/
+datasets/
+models/
+checkpoints/
+.cache/
+*.fxb
+*.safetensors
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.gguf
+*.bin
+
+# Generated experiment output
+logs/
+outputs/
+results/
+wandb/
+mlruns/
+*.log
+
+# OS temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
