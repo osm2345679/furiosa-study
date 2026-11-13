@@ -35,6 +35,7 @@ for workers in [1,2,4,8]:
 
     print("전체 시간 :", round(total_time, 2), "초")
     print("평균 지연 :", round(statistics.mean(latencies), 2))
+    print("요청 처리량 :", round(len(results) / total_time, 2), "req/s")
     print("Ouput TPS :", round(total_tokens / total_time, 2))
 
 # Results
